@@ -1,0 +1,15 @@
+---
+title: "E155 Portfolio"
+image: images/headshot.jpeg
+about:
+    template: jolla
+    links:
+        -   icon: linkedin
+            text: LinkedIn
+            href: https://www.linkedin.com/in/joseph-abdelmalek/
+        -   icon: github
+            text: GitHub
+            href: https://github.com/jo90899
+---
+
+Hello! My name is Joseph Abdelmalek. I am a Junior at Harvey Mudd College studying Engineering, with a focus in Biomedical Engineering. My academic career has led me to many useful and interesting classes like Continuum Mechanics, Experimental Engineering and now MicroPs! I am also a research student in Prof. Santana's CuTE Lab, where I help parametrize and test a 3D bioprinter. Outside of classes, I enjoy playing club volleyball for the Claremont Colleges team and teaching Coptic hymns classes and Sunday School at my home church in Irvine.
