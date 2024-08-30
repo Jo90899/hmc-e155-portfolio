@@ -1,0 +1,128 @@
+[
+  {
+    "objectID": "posts/initial-goals.html",
+    "href": "posts/initial-goals.html",
+    "title": "My Personal E155 Goals",
+    "section": "",
+    "text": "E155 (also known as “MicroPs”) is an upper-division elective at Harvey Mudd intended to expand our knowledge of digital design (FPGAs and microcontrollers) in order to allow us to build our own embedded systems. This class is very hands-on and lab-oriented: as such, much of the learning in this class comes from putting our knowledge to practice and learning from our (many) mistakes.\nAs for my learning objectives, it is not as simple as saying I want to learn more about digital design. In order to do this, I have to be willing to try and fail so that I can learn from my mistakes. I hope that through this class, I gain the confidence to try my best and accept that failure will happen. I hope to learn that failure is not a step backward, but instead a new clue to finding my way forward."
+  },
+  {
+    "objectID": "labs/lab7/lab7.html",
+    "href": "labs/lab7/lab7.html",
+    "title": "E155 Lab 7",
+    "section": "",
+    "text": "Description"
+  },
+  {
+    "objectID": "labs/lab7/lab7.html#the-advanced-encryption-standard",
+    "href": "labs/lab7/lab7.html#the-advanced-encryption-standard",
+    "title": "E155 Lab 7",
+    "section": "",
+    "text": "Description"
+  },
+  {
+    "objectID": "labs/lab5/lab5.html",
+    "href": "labs/lab5/lab5.html",
+    "title": "E155 Lab 5",
+    "section": "",
+    "text": "Description"
+  },
+  {
+    "objectID": "labs/lab5/lab5.html#interrupts",
+    "href": "labs/lab5/lab5.html#interrupts",
+    "title": "E155 Lab 5",
+    "section": "",
+    "text": "Description"
+  },
+  {
+    "objectID": "labs/lab3/lab3.html",
+    "href": "labs/lab3/lab3.html",
+    "title": "E155 Lab 3",
+    "section": "",
+    "text": "Description"
+  },
+  {
+    "objectID": "labs/lab3/lab3.html#keypad-scanner",
+    "href": "labs/lab3/lab3.html#keypad-scanner",
+    "title": "E155 Lab 3",
+    "section": "",
+    "text": "Description"
+  },
+  {
+    "objectID": "labs/lab1/lab1.html",
+    "href": "labs/lab1/lab1.html",
+    "title": "E155 Lab 1",
+    "section": "",
+    "text": "Description"
+  },
+  {
+    "objectID": "labs/lab1/lab1.html#fpga-and-mcu-setup-and-testing",
+    "href": "labs/lab1/lab1.html#fpga-and-mcu-setup-and-testing",
+    "title": "E155 Lab 1",
+    "section": "",
+    "text": "Description"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "E155 Blog",
+    "section": "",
+    "text": "Hello Quarto\n\n\n\n\n\nWelcome to my Quarto portfolio E155!\n\n\n\n\n\nAug 30, 2024\n\n\nJoseph Abdelmalek\n\n\n\n\n\n\n\n\n\n\n\n\nMy Personal E155 Goals\n\n\n\n\n\nLet me tell you about I hope to gain from this course!\n\n\n\n\n\nAug 30, 2024\n\n\nJoseph Abdelmalek\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "E155 Portfolio",
+    "section": "",
+    "text": "Hello! My name is Joseph Abdelmalek. I am a Junior at Harvey Mudd College studying Engineering, with a focus in Biomedical Engineering. My academic career has led me to many useful and interesting classes like Continuum Mechanics, Experimental Engineering and now MicroPs! I am also a research student in Prof. Santana’s CuTE Lab, where I help parametrize and test a 3D bioprinter. Outside of classes, I enjoy playing club volleyball for the Claremont Colleges team and teaching Coptic hymns classes and Sunday School at my home church in Irvine."
+  },
+  {
+    "objectID": "labs/lab2/lab2.html",
+    "href": "labs/lab2/lab2.html",
+    "title": "E155 Lab 2",
+    "section": "",
+    "text": "Description"
+  },
+  {
+    "objectID": "labs/lab2/lab2.html#multiplexed-7-segment-display",
+    "href": "labs/lab2/lab2.html#multiplexed-7-segment-display",
+    "title": "E155 Lab 2",
+    "section": "",
+    "text": "Description"
+  },
+  {
+    "objectID": "labs/lab4/lab4.html",
+    "href": "labs/lab4/lab4.html",
+    "title": "E155 Lab 4",
+    "section": "",
+    "text": "Description"
+  },
+  {
+    "objectID": "labs/lab4/lab4.html#digital-audio",
+    "href": "labs/lab4/lab4.html#digital-audio",
+    "title": "E155 Lab 4",
+    "section": "",
+    "text": "Description"
+  },
+  {
+    "objectID": "labs/lab6/lab6.html",
+    "href": "labs/lab6/lab6.html",
+    "title": "E155 Lab 6",
+    "section": "",
+    "text": "Description"
+  },
+  {
+    "objectID": "labs/lab6/lab6.html#the-internet-of-things-and-serial-peripheral-interface",
+    "href": "labs/lab6/lab6.html#the-internet-of-things-and-serial-peripheral-interface",
+    "title": "E155 Lab 6",
+    "section": "",
+    "text": "Description"
+  },
+  {
+    "objectID": "posts/first-post.html",
+    "href": "posts/first-post.html",
+    "title": "Hello Quarto",
+    "section": "",
+    "text": "Check out all the cool places on this Quarto portfolio, like my other blog posts or my labs, by using the Navibar at the top of the screen!"
+  }
+]
