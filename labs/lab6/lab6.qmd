@@ -1,5 +1,7 @@
 ---
-title: "E155 Lab X - Name_Of_Lab"
+title: "E155 Lab 6"
 ---
+
+## The Internet of Things and Serial Peripheral Interface
 
 Description

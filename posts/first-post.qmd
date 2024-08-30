@@ -1,10 +1,12 @@
 ---
 title: "Hello Quarto"
-description: "Welcome to my Quarto portfolio"
+description: "Welcome to my Quarto portfolio E155!"
 author: "Joseph Abdelmalek"
-date: "8/27/24"
+date: "8/30/24"
 categories:
   - reflection
   - labreport
 draft: false
 ---
+
+Check out all the cool places on this Quarto portfolio, like my other blog posts or my labs, by using the Navibar at the top of the screen!

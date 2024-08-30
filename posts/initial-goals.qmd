@@ -1,0 +1,14 @@
+---
+title: "My Personal E155 Goals"
+description: "Let me tell you about I hope to gain from this course!"
+author: "Joseph Abdelmalek"
+date: "8/30/24"
+categories:
+  - reflection
+  - goals
+draft: false
+---
+
+E155 (also known as "MicroPs") is an upper-division elective at Harvey Mudd intended to expand our knowledge of digital design (FPGAs and microcontrollers) in order to allow us to build our own embedded systems. This class is very hands-on and lab-oriented: as such, much of the learning in this class comes from putting our knowledge to practice and learning from our (many) mistakes. 
+
+As for my learning objectives, it is not as simple as saying I want to learn more about digital design. In order to do this, I have to be willing to try and fail so that I can learn from my mistakes. I hope that through this class, I gain the confidence to try my best and accept that failure will happen. I hope to learn that failure is not a step backward, but instead a new clue to finding my way forward.
