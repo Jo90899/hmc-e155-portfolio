@@ -1,0 +1,16 @@
+---
+title: "Lab 1 Reflection"
+description: "Reflecting on my experience with Lab 1 until now"
+author: "Joseph Abdelmalek"
+date: "9/6/24"
+categories:
+  - reflection
+  - lab
+draft: false
+---
+
+The goal of E155 Lab 1 was to set up and test our provided MCU and FPGA. In addition to setting them up, we were tasked with using them to create a 7-segment display that could display a single hexadecimal digit. For this lab, I was able to complete the setup and test for the MCU and FPGA, however I was unable to complete the display as I ran out of time during the week.
+
+Most of the time I spent on this lab was debugging and setup. For me, this took longer than average because in my mind, the physical aspect of the project had no need for debugging, and I focused fully on trying to debug the software. When running the provided demos for the FPGA and MCU, I looked for errors in my downloaded drivers/packages or my code files. However, my problem during this lab came from a few poorly-soldered pins on the development board. Because of this, I learned that the best way to attack a problem when you have no direction is to start at the beginning and never assume you know where to go. Although I was unable to get to the 7-segment display, I was still able to learn a valuable skill that will help me in the future labs and projects.
+
+Looking ahead at the final task for this lab that I have yet to complete, I feel confident that I can attack it and solve it. During lectures, we spent time reviewing key concepts such as combinational and sequential logic and how to approach problems that require us to create modules for FPGAs. We also looked at ways *not* to write Verilog, which will help me avoid errors and extended debugging.
