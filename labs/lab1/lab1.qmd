@@ -78,3 +78,6 @@ Given this, I chose a resistor close to 60 Ohms (68 Ohms). I then completed the 
 ![Seven-segment displaying "A"](images/sevensegA.jpg)
 **Figure 5:** Image of the seven-segment display when given s[3:0]=1010 as an input and showing "A" as the output.
 :::
+
+# Summary
+In sum, I was able to create a working seven-segment display and I was also able to control my on-board LEDs. Most of the time I spent on this lab was struggling to get the software and hardware to work because of the soldering issues I had. In the future, labs will not take me as long, as this lab has led me to reflow all my pins as a future precaution. With this time included, the lab took me about 20-22 hours to complete.
