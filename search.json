@@ -72,16 +72,30 @@
   {
     "objectID": "labs/lab1/lab1.html",
     "href": "labs/lab1/lab1.html",
-    "title": "E155 Lab 1",
+    "title": "E155 Lab 1: FPGA and MCU Setup and Testing",
     "section": "",
-    "text": "Description"
+    "text": "In this lab, the goal was to set up and test our development board, FPGA, and MCU, as described in the Lab 1 Instructions. In addition to running these tests, we were tasked with creating our own program to run on the FPGA that would light up a seven-segment LED display. This display would be able to show the single-digit hexadecimal digits 0-f and it would be controlled by 4 DIP switches mounted on the development board."
   },
   {
-    "objectID": "labs/lab1/lab1.html#fpga-and-mcu-setup-and-testing",
-    "href": "labs/lab1/lab1.html#fpga-and-mcu-setup-and-testing",
-    "title": "E155 Lab 1",
-    "section": "",
-    "text": "Description"
+    "objectID": "labs/lab1/lab1.html#module-design",
+    "href": "labs/lab1/lab1.html#module-design",
+    "title": "E155 Lab 1: FPGA and MCU Setup and Testing",
+    "section": "Module Design",
+    "text": "Module Design\nTo begin solving this problem, I drew out the top-level design for my SystemVerilog, shown below. In this design, I included a module for the LED Control and a module for the Seven-Seg display, as well as a clk generated using HSOSC as instructed within the Lab1 top-view but outside the two modules.\n\n\n\n\nTop-level design of modules\n\n\n\nFigure 2: Top-level design sketch of the seven_seg and led_control modules used inside the lab1_xx (or lab1_ja) file.\nFrom here, I was able to write my SystemVerilog in Radiant. See that code here."
+  },
+  {
+    "objectID": "labs/lab1/lab1.html#simulation-and-results",
+    "href": "labs/lab1/lab1.html#simulation-and-results",
+    "title": "E155 Lab 1: FPGA and MCU Setup and Testing",
+    "section": "Simulation and Results",
+    "text": "Simulation and Results\nAfter completing the .sv files for both the led_control and seven_seg as well as the top level file, I ran a simulation on ModelSim to test my outputs. I forced each input 0000-1111 and received the correct outputs, as can be seen in the image below.\n\n Figure 3: Screenshot of the ModelSim wave view displaying successful simulation for all potential inputs.\n\nThe results indicate that the LEDs on the development board function properly and each input for the seven-segment display contains a correct (and unique) combination displaying the hexadecimal digit."
+  },
+  {
+    "objectID": "labs/lab1/lab1.html#journey-to-hardware",
+    "href": "labs/lab1/lab1.html#journey-to-hardware",
+    "title": "E155 Lab 1: FPGA and MCU Setup and Testing",
+    "section": "Journey to Hardware",
+    "text": "Journey to Hardware\nAfter successfully simulating the Lab1 modules, I needed to then put the seven-segment display on a breadboard to physically light it. To do this, I first had to consider the LED power draw and how much current would flow through each cathode, so as to make sure the segments all lit up at the same brightness level. Each cathode on the display needed to be connected to the breadboard adapter (and ultimately ground), so we had to include a resistance in this connection. In addition, because of Kirchhoff’s Current Law, the resistors all must be the same because current will flow through the path of least resistance (same resistance will result in even flow). Looking at the datasheet, I found that the voltage required to power a segment was 2.1 V and the ideal current was 20 mA So:\n\\[\nR=\\frac{V_i-V_f}{I}=\\frac{3.3-2.1}{0.02}=60 \\textnormal{ Ohms}\n\\]\nGiven this, I chose a resistor close to 60 Ohms (68 Ohms). I then completed the circuit and programmed my FPGA, which then gave me the correct outputs on the display, modeled with two examples below.\n\n Figure 4: Image of the seven-segment display when given s[3:0]=0100 as an input and showing “4” as the output.\n\n\n Figure 5: Image of the seven-segment display when given s[3:0]=1010 as an input and showing “A” as the output."
   },
   {
     "objectID": "labs/lab3/lab3.html",

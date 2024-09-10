@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>E155 Lab 1 – E155 Portfolio</title>
+<title>E155 Lab 1: FPGA and MCU Setup and Testing – E155 Portfolio</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -67,6 +67,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../../styles.css">
 </head>
@@ -151,7 +180,14 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#fpga-and-mcu-setup-and-testing" id="toc-fpga-and-mcu-setup-and-testing" class="nav-link active" data-scroll-target="#fpga-and-mcu-setup-and-testing">FPGA and MCU Setup and Testing</a></li>
+  <li><a href="#lab-overview" id="toc-lab-overview" class="nav-link active" data-scroll-target="#lab-overview">Lab Overview</a></li>
+  <li><a href="#assembling-and-testing-the-development-board" id="toc-assembling-and-testing-the-development-board" class="nav-link" data-scroll-target="#assembling-and-testing-the-development-board">Assembling and Testing the Development Board</a></li>
+  <li><a href="#led-control-and-seven-segment-display-task" id="toc-led-control-and-seven-segment-display-task" class="nav-link" data-scroll-target="#led-control-and-seven-segment-display-task">LED Control and Seven-Segment Display Task</a>
+  <ul class="collapse">
+  <li><a href="#module-design" id="toc-module-design" class="nav-link" data-scroll-target="#module-design">Module Design</a></li>
+  <li><a href="#simulation-and-results" id="toc-simulation-and-results" class="nav-link" data-scroll-target="#simulation-and-results">Simulation and Results</a></li>
+  <li><a href="#journey-to-hardware" id="toc-journey-to-hardware" class="nav-link" data-scroll-target="#journey-to-hardware">Journey to Hardware</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -160,7 +196,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">E155 Lab 1</h1>
+<h1 class="title">E155 Lab 1: FPGA and MCU Setup and Testing</h1>
 </div>
 
 
@@ -177,11 +213,134 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="fpga-and-mcu-setup-and-testing" class="level2">
-<h2 class="anchored" data-anchor-id="fpga-and-mcu-setup-and-testing">FPGA and MCU Setup and Testing</h2>
-<p>Description</p>
+<section id="lab-overview" class="level1">
+<h1>Lab Overview</h1>
+<p>In this lab, the goal was to set up and test our development board, FPGA, and MCU, as described in the <a href="https://hmc-e155.github.io/lab/lab1/">Lab 1 Instructions</a>. In addition to running these tests, we were tasked with creating our own program to run on the FPGA that would light up a seven-segment LED display. This display would be able to show the single-digit hexadecimal digits 0-f and it would be controlled by 4 DIP switches mounted on the development board.</p>
+</section>
+<section id="assembling-and-testing-the-development-board" class="level1">
+<h1>Assembling and Testing the Development Board</h1>
+<p>To assemble the development board, we needed to solder on both surface mounted and through hole components, including regulators, LEDs, resistors, DIP switches, and more. Once assembled, I powered the board using the USB connection as seen in the image below.</p>
+<div class="figure">
+<p><img src="images/assembled_board.jpg" class="img-fluid" alt="Assembled development board"> <strong>Figure 1:</strong> Assembled development board while powered by the USB connection.</p>
+</div>
+<p>After assembling the board, I was able to successfully test it using the given files. At first, getting the tests to be successful proved difficult, however this was due to a few not-fully-soldered pins. Once I fixed this, the tests ran successfully.</p>
+</section>
+<section id="led-control-and-seven-segment-display-task" class="level1">
+<h1>LED Control and Seven-Segment Display Task</h1>
+<p>After testing the board, it was time to move into creating the LED control and seven-segment display. To do this, I followed the given truth table for the LED control:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">S1</th>
+<th style="text-align: center;">S0</th>
+<th style="text-align: center;">led[0]</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">OFF</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">ON</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">ON</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">OFF</td>
+</tr>
+</tbody>
+</table>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">S3</th>
+<th style="text-align: center;">S2</th>
+<th style="text-align: center;">led[1]</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">OFF</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">OFF</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">OFF</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">ON</td>
+</tr>
+</tbody>
+</table>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">led[2]</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">Blink at 2.4 Hz</td>
+</tr>
+</tbody>
+</table>
+<p>From this table, it can be noted that led[0] is simply driven by an XOR gate between S1 and S0 and led[1] is simply an AND gate between S3 and S2. In addition, the s[3:0] input was driven to the seven-segment display, where the input s[3:0] as a hexadecimal number corresponded to the number displayed on the seven-segment display by turning on/off seg[6:0]. For example, 0100 is 4 in hexadecimal, so the segments that light up (BCFG, or seg1, seg2, seg5, and seg6) would light up the shape of a 4.</p>
+<section id="module-design" class="level2">
+<h2 class="anchored" data-anchor-id="module-design">Module Design</h2>
+<p>To begin solving this problem, I drew out the top-level design for my SystemVerilog, shown below. In this design, I included a module for the LED Control and a module for the Seven-Seg display, as well as a clk generated using HSOSC as instructed within the Lab1 top-view but outside the two modules.</p>
+<div class="figure">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/topdesign.png" class="img-fluid figure-img"></p>
+<figcaption>Top-level design of modules</figcaption>
+</figure>
+</div>
+</div>
+<p><strong>Figure 2:</strong> Top-level design sketch of the seven_seg and led_control modules used inside the lab1_xx (or lab1_ja) file.</p>
+<p>From here, I was able to write my SystemVerilog in Radiant. See that code <a href="https://github.com/Jo90899/e155-lab1/tree/main/lab1">here.</a></p>
+</section>
+<section id="simulation-and-results" class="level2">
+<h2 class="anchored" data-anchor-id="simulation-and-results">Simulation and Results</h2>
+<p>After completing the .sv files for both the led_control and seven_seg as well as the top level file, I ran a simulation on ModelSim to test my outputs. I forced each input 0000-1111 and received the correct outputs, as can be seen in the image below.</p>
+<div class="figure">
+<p><img src="images/testbench.png" class="img-fluid" alt="ModelSim results"> <strong>Figure 3:</strong> Screenshot of the ModelSim wave view displaying successful simulation for all potential inputs.</p>
+</div>
+<p>The results indicate that the LEDs on the development board function properly and each input for the seven-segment display contains a correct (and unique) combination displaying the hexadecimal digit.</p>
+</section>
+<section id="journey-to-hardware" class="level2">
+<h2 class="anchored" data-anchor-id="journey-to-hardware">Journey to Hardware</h2>
+<p>After successfully simulating the Lab1 modules, I needed to then put the seven-segment display on a breadboard to physically light it. To do this, I first had to consider the LED power draw and how much current would flow through each cathode, so as to make sure the segments all lit up at the same brightness level. Each cathode on the display needed to be connected to the breadboard adapter (and ultimately ground), so we had to include a resistance in this connection. In addition, because of Kirchhoff’s Current Law, the resistors all must be the same because current will flow through the path of least resistance (same resistance will result in even flow). Looking at the datasheet, I found that the voltage required to power a segment was 2.1 V and the ideal current was 20 mA So:</p>
+<p><span class="math display">\[
+R=\frac{V_i-V_f}{I}=\frac{3.3-2.1}{0.02}=60 \textnormal{ Ohms}
+\]</span></p>
+<p>Given this, I chose a resistor close to 60 Ohms (68 Ohms). I then completed the circuit and programmed my FPGA, which then gave me the correct outputs on the display, modeled with two examples below.</p>
+<div class="figure">
+<p><img src="images/sevenseg4.jpg" class="img-fluid" alt="Seven-segment displaying “4”"> <strong>Figure 4:</strong> Image of the seven-segment display when given s[3:0]=0100 as an input and showing “4” as the output.</p>
+</div>
+<div class="figure">
+<p><img src="images/sevensegA.jpg" class="img-fluid" alt="Seven-segment displaying “A”"> <strong>Figure 5:</strong> Image of the seven-segment display when given s[3:0]=1010 as an input and showing “A” as the output.</p>
+</div>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
