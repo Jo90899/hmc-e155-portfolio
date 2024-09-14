@@ -1,0 +1,14 @@
+---
+title: "Lab 2 Reflection"
+description: "My experience with Lab 2 so far"
+author: "Joseph Abdelmalek"
+date: "9/13/24"
+categories:
+  - reflection
+  - lab
+draft: false
+---
+
+For E155 Lab 2, I was tasked with building on my skills from Lab 1, as well as learning how to use time multiplexing to my advantage. While putting the pieces of the software together, I noticed that I spend a lot of time redoing or reorganizing my setup due to a lack of pre-implementation mapping. Taking a step back, it seems the best way to move forward with labs like these is to spend some time in front of a whiteboard and just throw my thoughts down. This could definitely help me find potential errors or easier solutions before I implement.
+
+Using skills from lectures, like writing out input-output tables and drawing FSM State Transition Diagrams/Tables has proven useful for this lab. The lab definitely seems to get easier when I draw things out like this. Additionally, time multiplexing seems like a great way to save "space" with our MCU and FPGA. This is definitely something I want to explore and maybe include in my project for E155.
