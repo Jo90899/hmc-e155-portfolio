@@ -67,16 +67,21 @@ $$
 R=\frac{V_i-V_f}{I}=\frac{3.3-2.1}{0.02}=60 \textnormal{ Ohms}
 $$
 
-Given this, I chose a resistor close to 60 Ohms (68 Ohms). I then completed the circuit and programmed my FPGA, which then gave me the correct outputs on the display, modeled with two examples below.
+Given this, I chose a resistor close to 60 Ohms (68 Ohms). I then completed the circuit following the schematic below and programmed my FPGA, which then gave me the correct outputs on the display, modeled with two examples following the schematic.
+
+:::{.figure}
+![Seven segment display schematic](images/schematic.jpg)
+**Figure 4:** Image of the seven-segment display schematic drawing with pin numbers.
+:::
 
 :::{.figure}
 ![Seven-segment displaying "4"](images/sevenseg4.jpg)
-**Figure 4:** Image of the seven-segment display when given s[3:0]=0100 as an input and showing "4" as the output.
+**Figure 5:** Image of the seven-segment display when given s[3:0]=0100 as an input and showing "4" as the output.
 :::
 
 :::{.figure}
 ![Seven-segment displaying "A"](images/sevensegA.jpg)
-**Figure 5:** Image of the seven-segment display when given s[3:0]=1010 as an input and showing "A" as the output.
+**Figure 6:** Image of the seven-segment display when given s[3:0]=1010 as an input and showing "A" as the output.
 :::
 
 # Summary
