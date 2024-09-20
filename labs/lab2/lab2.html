@@ -39,6 +39,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-contrib/videojs/video.min.js"></script>
+<link href="../../site_libs/quarto-contrib/videojs/video-js.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -256,6 +258,9 @@ ul.task-list li input[type="checkbox"] {
 <div class="figure">
 <p><img src="images/multiplexd7.jpg" class="img-fluid" alt="Dual seven-segment displaying “d,7”"> <strong>Figure 9:</strong> Image of the dual seven-segment display showing the proper multiplexed outputs d and 7. The sum is also correct (10100).</p>
 </div>
+<p>Here. you’ll find a video of some more combinations. In the video you will notice that the setup looks slightly different. When playing around with more combinations, I found that in certain cases, the LEDs would not output the correct sum and the seven segment display for digit #2 would flicker and be incorrect. When I ran my finger over the Upduino board, specifically around P6, the LEDs and display would flicker more and then adjust to the right input. I later found that the connection from P6 on the development board to the ribbon cable connecting it to the breadboard looked corrupted/broken. When changing the input of the second DIP switch from P6 to P42, one of the secondary input pins on the development board, all the broken combinations had been fixed and the display and LEDs worked perfectly. Check out the video below!</p>
+<div class="quarto-video"><video id="video_shortcode_videojs_video1" class="video-js vjs-default-skin vjs-fluid" controls="" preload="auto" data-setup="{}" title=""><source src="images/proofvideo.mp4"></video></div>
+<p><strong>Figure 7:</strong> Video showing the working seven-segment display. (Between 3 and 4 on the second digit, the DIP switch was pushed slightly off the board. After pushing it back in, it resumed working).</p>
 </section>
 <section id="summary" class="level1">
 <h1>Summary</h1>
@@ -686,6 +691,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<script>videojs(video_shortcode_videojs_video1);</script>
 
 
 
