@@ -70,7 +70,7 @@ $$
 Given this, I chose a resistor close to 60 Ohms (68 Ohms). I then completed the circuit following the schematic below and programmed my FPGA, which then gave me the correct outputs on the display, modeled with two examples following the schematic.
 
 :::{.figure}
-![Seven segment display schematic](images/schematic.jpg)
+![Seven segment display schematic](images/schematic.png)
 **Figure 4:** Image of the seven-segment display schematic drawing with pin numbers.
 :::
 

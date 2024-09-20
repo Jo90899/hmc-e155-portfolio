@@ -80,5 +80,10 @@ With the hardware designed, I implemented my plans, completed the circuit, and p
 **Figure 9:** Image of the dual seven-segment display showing the proper multiplexed outputs d and 7. The sum is also correct (10100).
 :::
 
+Here. you'll find a video of some more combinations. In the video you will notice that the setup looks slightly different. When playing around with more combinations, I found that in certain cases, the LEDs would not output the correct sum and the seven segment display for digit #2 would flicker and be incorrect. When I ran my finger over the Upduino board, specifically around P6, the LEDs and display would flicker more and then adjust to the right input. I later found that the connection from P6 on the development board to the ribbon cable connecting it to the breadboard looked corrupted/broken. When changing the input of the second DIP switch from P6 to P42, one of the secondary input pins on the development board, all the broken combinations had been fixed and the display and LEDs worked perfectly. Check out the video below!
+
+{{< video images/proofvideo.mp4 >}}
+**Figure 7:** Video showing the working seven-segment display. (Between 3 and 4 on the second digit, the DIP switch was pushed slightly off the board. After pushing it back in, it resumed working).
+
 # Summary
 In sum, I was able to create a working dual seven-segment display and I was also able sum the outputs on LEDs. Most of the time I spent on this lab was getting the seven-segment display pins right. A large part of this lab needed organization and mapping so as to help make debugging quicker and easier. Going forward, drawing out the pin locations, state transition diagrams, etc. will prove to help me move along and figure the labs out much quicker. In total, this lab took me about 12 hours.
