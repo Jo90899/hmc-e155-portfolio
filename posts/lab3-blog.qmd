@@ -1,0 +1,14 @@
+---
+title: "Lab 3 Reflection"
+description: "Lab 3 'til simulation"
+author: "Joseph Abdelmalek"
+date: "9/27/24"
+categories:
+  - reflection
+  - lab
+draft: false
+---
+
+For E155 Lab 3, I was building a keypad scanner, which would allow me to press keys on a physical keypad and make the number I press appear on a dual seven segment display. This involved a lot of pre-planning, which I did in light of previous labs. With the pre-planning, I mapped out all my necessary modules and was able to get everything working on my simulations. However when looking at hardware, everything was not as it seems. Currently I am playing around with my simulations to see where I can break it to figure out what is going wrong.
+
+The reason I am choosing to mess with simulation instead of the hardware is because I previously had an issue where even though my simulation was set up correctly, I ran into timing issues. Because I had set my counter too high, my testbench changed values too fast to get picked up by the next state logic block. Hopefully, I am able to find something soon!
