@@ -1,0 +1,14 @@
+---
+title: "Week 6 Reflection"
+description: "Project Kickoff!"
+author: "Joseph Abdelmalek"
+date: "10/14/24"
+categories:
+  - reflection
+  - lab
+draft: false
+---
+
+This week was project kickoff! For MicroPs, we have a final project where we use the skills from labs in class to create our own projects in teams. These projects are self-designed and are things we personally would like to work on. I'm super excited to start working on projects! I have a few ideas, some of them game-style projects, others fun and unique things like a voice modulating headset. But first I have to find a team to work in.
+
+This week, Lab 5 on Interrupts was also due. I started working on it, but was unable to make as much progress as I would have liked due to finals. I'm hoping to get some more work on it done later over fall break, but I do not have high hopes as I will be recovering over the break (and a well needed recovery at that).

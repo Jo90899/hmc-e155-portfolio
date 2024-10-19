@@ -1,5 +1,5 @@
 ---
-title: "Week 6 Reflection"
+title: "Week 7 Reflection"
 description: "Project Proposal Checkoff!"
 author: "Joseph Abdelmalek"
 date: "10/18/24"
