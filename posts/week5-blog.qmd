@@ -1,0 +1,15 @@
+---
+title: "Week 6 Reflection"
+description: "Project Proposal Checkoff!"
+author: "Joseph Abdelmalek"
+date: "10/18/24"
+categories:
+  - reflection
+  - lab
+draft: false
+---
+
+This week was project proposal checkoff for our MicroPs Final Projects! I joined Troy Kaufman and Vikram Krishna and our project will be using the FPGA and MCU to build an edge detector for a live camera image. I am looking forward to this project and maybe also seeing how much further we can take this. If we can accomplish this with time to spare, we also thought about creating a blur filter as well, and maybe a way to switch between filters easier. Super cool!
+
+Since we came back from fall break, there is no lab this week, so I spent some time (as much as I had, but I didn't have much) trying to catch up on past labs. Still have lots of work to do, and I have Lab 6 to work on for next week as well, so we will see how that goes. I'm going to try and finish up Lab 5 and Lab 6 by my checkoff, both to catch up and to fully prepare for my final project work.
+

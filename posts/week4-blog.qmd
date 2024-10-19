@@ -1,0 +1,19 @@
+---
+title: "Lab 4 Reflection"
+description: "Where is Lab 4?"
+author: "Joseph Abdelmalek"
+date: "10/4/24"
+categories:
+  - reflection
+  - lab
+draft: false
+---
+
+For Lab 4, my goal was to use our MCU's peripheral timers to alternate a pin given a certain frequency. This would be done by having those timers create signals in the form of square wave unit steps, or basically turning the signal on and off for varying amounts of time. This would allow us to play sounds from a speaker attached to the output pin, which could then be used to play music given a set of notes. The question now lies in our title: "Where is Lab 4?"
+
+This week we worked on creating our own custom PCBs to use in our temperature lab, Lab 6. We were tasked with watching some prep tutorial videos before class lectures so that we could work on the PCBs in class as needed. However, this was not as simple as I thought. The videos we watched were made using KiCad v4, while the KiCad version I downloaded was KiCad v8. Because of this, lots of steps and names for things in the videos were different. I spent a lot of time over the week trying to find the proper way to complete the steps in the tutorial for this updated version, resulting in *significantly* less time for Lab 4. I did learn something from it though:
+1. **Never Assume!** I thought the videos would be quick... they were not...
+
+2. **Start Early!** In the future, when I get assigned something, I should start it right away, even if I don't finish it so that I can estimate how long it may take me.
+
+3. **PCBs!** I did manage to make my own PCB this week which is awesome. Definitely want to do more of this in the future. It was fun!
