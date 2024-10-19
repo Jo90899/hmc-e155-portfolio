@@ -2,10 +2,11 @@
   {
     "listing": "/blog.html",
     "items": [
-      "/posts/lab4-blog.html",
-      "/posts/lab3-blog.html",
-      "/posts/lab2-blog.html",
-      "/posts/lab1-blog.html",
+      "/posts/week5-blog.html",
+      "/posts/week4-blog.html",
+      "/posts/week3-blog.html",
+      "/posts/week2-blog.html",
+      "/posts/week1-blog.html",
       "/posts/first-post.html",
       "/posts/initial-goals.html"
     ]
