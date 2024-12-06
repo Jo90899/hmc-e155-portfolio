@@ -28,6 +28,13 @@
     "text": "For E155 Lab 2, I was tasked with building on my skills from Lab 1, as well as learning how to use time multiplexing to my advantage. While putting the pieces of the software together, I noticed that I spend a lot of time redoing or reorganizing my setup due to a lack of pre-implementation mapping. Taking a step back, it seems the best way to move forward with labs like these is to spend some time in front of a whiteboard and just throw my thoughts down. This could definitely help me find potential errors or easier solutions before I implement.\nUsing skills from lectures, like writing out input-output tables and drawing FSM State Transition Diagrams/Tables has proven useful for this lab. The lab definitely seems to get easier when I draw things out like this. Additionally, time multiplexing seems like a great way to save “space” with our MCU and FPGA. This is definitely something I want to explore and maybe include in my project for E155."
   },
   {
+    "objectID": "posts/week11-blog.html",
+    "href": "posts/week11-blog.html",
+    "title": "Week 11 Reflection",
+    "section": "",
+    "text": "Happy Thanksgiving! Because Thanksgiving was yesterday, I figured I would reflect on the things I am thankful for this semester. Although there were most definitely a lot of challenges, I’m thankful for the support I found during these challenges. I also feel like because of the various challenges I faced, I was able to build deeper connections with my peers as we supported and helped each other through. Still, I cannot wait for the semester to be over. I’ve had enough challenges for one year!"
+  },
+  {
     "objectID": "posts/week1-blog.html",
     "href": "posts/week1-blog.html",
     "title": "Lab 1 Reflection",
@@ -95,7 +102,7 @@
     "href": "blog.html",
     "title": "E155 Blog",
     "section": "",
-    "text": "Week 10 Reflection\n\n\n\n\n\nNo More Labs!\n\n\n\n\n\nNov 8, 2024\n\n\nJoseph Abdelmalek\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 9 Reflection\n\n\n\n\n\nWhat Else is Out There?\n\n\n\n\n\nNov 1, 2024\n\n\nJoseph Abdelmalek\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 8 Reflection\n\n\n\n\n\nEncryption Fun!\n\n\n\n\n\nOct 25, 2024\n\n\nJoseph Abdelmalek\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 7 Reflection\n\n\n\n\n\nProject Proposal Checkoff!\n\n\n\n\n\nOct 18, 2024\n\n\nJoseph Abdelmalek\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 6 Reflection\n\n\n\n\n\nProject Kickoff!\n\n\n\n\n\nOct 14, 2024\n\n\nJoseph Abdelmalek\n\n\n\n\n\n\n\n\n\n\n\n\nLab 4 Reflection\n\n\n\n\n\nWhere is Lab 4?\n\n\n\n\n\nOct 4, 2024\n\n\nJoseph Abdelmalek\n\n\n\n\n\n\n\n\n\n\n\n\nLab 3 Reflection\n\n\n\n\n\nLab 3 ’til simulation\n\n\n\n\n\nSep 27, 2024\n\n\nJoseph Abdelmalek\n\n\n\n\n\n\n\n\n\n\n\n\nLab 2 Reflection\n\n\n\n\n\nMy experience with Lab 2 so far\n\n\n\n\n\nSep 13, 2024\n\n\nJoseph Abdelmalek\n\n\n\n\n\n\n\n\n\n\n\n\nLab 1 Reflection\n\n\n\n\n\nReflecting on my experience with Lab 1 until now\n\n\n\n\n\nSep 6, 2024\n\n\nJoseph Abdelmalek\n\n\n\n\n\n\n\n\n\n\n\n\nHello Quarto\n\n\n\n\n\nWelcome to my Quarto portfolio E155!\n\n\n\n\n\nAug 30, 2024\n\n\nJoseph Abdelmalek\n\n\n\n\n\n\n\n\n\n\n\n\nMy Personal E155 Goals\n\n\n\n\n\nLet me tell you about I hope to gain from this course!\n\n\n\n\n\nAug 30, 2024\n\n\nJoseph Abdelmalek\n\n\n\n\n\n\nNo matching items"
+    "text": "Week 12 Reflection\n\n\n\n\n\nMy last MicroPs reflection…\n\n\n\n\n\nDec 6, 2024\n\n\nJoseph Abdelmalek\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 11 Reflection\n\n\n\n\n\nHappy Thanksgiving!\n\n\n\n\n\nNov 29, 2024\n\n\nJoseph Abdelmalek\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 10 Reflection\n\n\n\n\n\nNo More Labs!\n\n\n\n\n\nNov 8, 2024\n\n\nJoseph Abdelmalek\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 9 Reflection\n\n\n\n\n\nWhat Else is Out There?\n\n\n\n\n\nNov 1, 2024\n\n\nJoseph Abdelmalek\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 8 Reflection\n\n\n\n\n\nEncryption Fun!\n\n\n\n\n\nOct 25, 2024\n\n\nJoseph Abdelmalek\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 7 Reflection\n\n\n\n\n\nProject Proposal Checkoff!\n\n\n\n\n\nOct 18, 2024\n\n\nJoseph Abdelmalek\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 6 Reflection\n\n\n\n\n\nProject Kickoff!\n\n\n\n\n\nOct 14, 2024\n\n\nJoseph Abdelmalek\n\n\n\n\n\n\n\n\n\n\n\n\nLab 4 Reflection\n\n\n\n\n\nWhere is Lab 4?\n\n\n\n\n\nOct 4, 2024\n\n\nJoseph Abdelmalek\n\n\n\n\n\n\n\n\n\n\n\n\nLab 3 Reflection\n\n\n\n\n\nLab 3 ’til simulation\n\n\n\n\n\nSep 27, 2024\n\n\nJoseph Abdelmalek\n\n\n\n\n\n\n\n\n\n\n\n\nLab 2 Reflection\n\n\n\n\n\nMy experience with Lab 2 so far\n\n\n\n\n\nSep 13, 2024\n\n\nJoseph Abdelmalek\n\n\n\n\n\n\n\n\n\n\n\n\nLab 1 Reflection\n\n\n\n\n\nReflecting on my experience with Lab 1 until now\n\n\n\n\n\nSep 6, 2024\n\n\nJoseph Abdelmalek\n\n\n\n\n\n\n\n\n\n\n\n\nHello Quarto\n\n\n\n\n\nWelcome to my Quarto portfolio E155!\n\n\n\n\n\nAug 30, 2024\n\n\nJoseph Abdelmalek\n\n\n\n\n\n\n\n\n\n\n\n\nMy Personal E155 Goals\n\n\n\n\n\nLet me tell you about I hope to gain from this course!\n\n\n\n\n\nAug 30, 2024\n\n\nJoseph Abdelmalek\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "labs/lab1/lab1.html",
@@ -173,6 +180,13 @@
     "title": "Week 10 Reflection",
     "section": "",
     "text": "This week was our last week to work on labs! We have now moved on fully to the project phase. No looking back!\nFor our project, we have some design considerations to take in mind before we jump right in. When planning, we thought of two ways to communicate the camera output to VGA; single FPGA for processing AND communication, and dual FPGA communication for separate edge filtering and VGA communication. The considerations we are looking to make is on the order of complexity. Having two FPGAs would complicate the design and splitting, but it would greatly simplify the need for back-communication with our MCU. We would not need anything like ready-flags to tell the MCU when we can take in more data. Lots to think about!"
+  },
+  {
+    "objectID": "posts/week12-blog.html",
+    "href": "posts/week12-blog.html",
+    "title": "Week 12 Reflection",
+    "section": "",
+    "text": "This is the last week for MicroPs. Today is Demo Day!\nLooking back at this class, I think the most important thing I learned was the real-world application of what we learned in E85. Personally, when I see how something I learn about/learn how to do interacts with common applications in day-to-day life, I find it to be more interesting and also easier to understand. Seeing the basic structure behind projects our class designed and how they relate to other products or things anyone can find gives me a stronger connection to digital design. Overall, great class, great professor, great experience. 10/10."
   },
   {
     "objectID": "posts/week3-blog.html",
