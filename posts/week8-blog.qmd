@@ -1,0 +1,15 @@
+---
+title: "Week 8 Reflection"
+description: "Encryption Fun!"
+author: "Joseph Abdelmalek"
+date: "10/25/24"
+categories:
+  - reflection
+  - lab
+draft: false
+---
+
+This week we got an intro into what our seventh and final lab is for MicroPs. Encryption! We are hopping back to the FPGA and went over some key ideas and learned about the Advanced Encryption Standard. I think AES is really cool and I am excited to get to work on this lab. It will require us to encrypt plaintext that comes from the MCU and send it back over SPI. Pretty neat!
+
+Lots of things are piling up now as the semester starts to reach its end (only 6 more weeks!!) so I am hoping to keep a good pace with my work and get all my labs fully checked off soon. 
+

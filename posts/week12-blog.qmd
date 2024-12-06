@@ -1,0 +1,13 @@
+---
+title: "Week 12 Reflection"
+description: "My last MicroPs reflection..."
+author: "Joseph Abdelmalek"
+date: "12/6/24"
+categories:
+  - reflection
+draft: false
+---
+
+This is the last week for MicroPs. Today is Demo Day!
+
+Looking back at this class, I think the most important thing I learned was the real-world application of what we learned in E85. Personally, when I see how something I learn about/learn how to do interacts with common applications in day-to-day life, I find it to be more interesting and also easier to understand. Seeing the basic structure behind projects our class designed and how they relate to other products or things anyone can find gives me a stronger connection to digital design. Overall, great class, great professor, great experience. 10/10.

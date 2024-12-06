@@ -1,0 +1,11 @@
+---
+title: "Week 11 Reflection"
+description: "Happy Thanksgiving!"
+author: "Joseph Abdelmalek"
+date: "11/29/24"
+categories:
+  - reflection
+draft: false
+---
+
+Happy Thanksgiving! Because Thanksgiving was yesterday, I figured I would reflect on the things I am thankful for this semester. Although there were most definitely a lot of challenges, I'm thankful for the support I found during these challenges. I also feel like because of the various challenges I faced, I was able to build deeper connections with my peers as we supported and helped each other through. Still, I cannot wait for the semester to be over. I've had enough challenges for one year!

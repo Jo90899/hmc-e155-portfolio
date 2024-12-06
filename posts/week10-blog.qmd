@@ -1,0 +1,14 @@
+---
+title: "Week 10 Reflection"
+description: "No More Labs!"
+author: "Joseph Abdelmalek"
+date: "11/8/24"
+categories:
+  - reflection
+  - lab
+draft: false
+---
+
+This week was our last week to work on labs! We have now moved on fully to the project phase. No looking back!
+
+For our project, we have some design considerations to take in mind before we jump right in. When planning, we thought of two ways to communicate the camera output to VGA; single FPGA for processing AND communication, and dual FPGA communication for separate edge filtering and VGA communication. The considerations we are looking to make is on the order of complexity. Having two FPGAs would complicate the design and splitting, but it would greatly simplify the need for back-communication with our MCU. We would not need anything like ready-flags to tell the MCU when we can take in more data. Lots to think about!

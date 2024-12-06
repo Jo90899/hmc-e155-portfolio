@@ -1,0 +1,15 @@
+---
+title: "Week 9 Reflection"
+description: "What Else is Out There?"
+author: "Joseph Abdelmalek"
+date: "11/1/24"
+categories:
+  - reflection
+  - lab
+draft: false
+---
+
+Our last two lectures this week have introduced us to other things that we can use in the world of FPGA/MCU programming. We talked about graphic displays like VGA (which my project partners and I plan to use) LCDs, as well as motors and speakers. I find it really cool how motors and speakers are really just a combination of magnets and electricity at the end of the day. If you understand these two well enough, you can make your own speakers/motors without much trouble. 
+
+I am excited for the weeks coming: wrapping up the labs, more focus on project work, and more fun lectures!
+
